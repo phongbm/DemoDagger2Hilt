@@ -45,6 +45,10 @@ class OneFragment : Fragment() {
         binding.btnOpenTwoFragment.setOnClickListener {
             findNavController().navigate(R.id.actTwoFragment)
         }
+
+        binding.btnOpenFeature.setOnClickListener {
+            findNavController().navigate(R.id.navSubFeature)
+        }
     }
 
 }

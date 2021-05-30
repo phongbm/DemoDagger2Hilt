@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@id/navSubFeature"
+    app:startDestination="@id/featureFragment">
+
+    <fragment
+        android:id="@+id/featureFragment"
+        android:name="com.phongbm.feature.FeatureFragment" />
+</navigation>

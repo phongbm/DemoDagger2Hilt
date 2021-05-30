@@ -1,2 +1,3 @@
 rootProject.name = "DemoDagger2Hilt"
 include ':app'
+include ':feature'
