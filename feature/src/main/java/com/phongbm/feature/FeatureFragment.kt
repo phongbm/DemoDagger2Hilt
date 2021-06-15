@@ -8,11 +8,13 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import com.phongbm.feature.databinding.FragmentFeatureBinding
+import dagger.hilt.android.AndroidEntryPoint
 
 /**
  * Created by PhongBM on 05/29/2021
  */
 
+@AndroidEntryPoint
 class FeatureFragment : Fragment() {
     companion object {
         private const val TAG = "FeatureFragment"
